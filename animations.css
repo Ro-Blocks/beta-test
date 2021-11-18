@@ -1,0 +1,4 @@
+@keyframes down {
+    0% {top: -40px; opacity: 0%;}
+    100% {top: 0px; opacity: 100%;}
+}

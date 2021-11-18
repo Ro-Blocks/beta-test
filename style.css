@@ -1,0 +1,64 @@
+:root {
+  --selection-bg: red;
+}
+
+body {
+  text-align: center;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.blocklyDiv , #code {
+  margin: 0px;
+}
+
+#code {
+  float: right;
+  width: 29%;
+  height: 99vh;
+  max-width: 29%;
+  max-height: 99vh;
+  resize: none;
+  border: none;
+}
+
+#code::selection {
+  background: var(--selection-bg);
+}
+#code::-moz-selection { /* dla Firefox */
+  background: var(--selection-bg);
+}
+
+#logo {
+  position: relative;
+  animation-name: down;
+  animation-duration: 4s;
+}
+
+a:link {
+  color: #e22319;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: brown;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-image: linear-gradient(45deg, silver, white, silver);
+  text-decoration: none;
+}
+
+a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.footer {
+  /*text-decoration: overline;*/
+}
